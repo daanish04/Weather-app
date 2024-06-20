@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Weather Widget</h1>
+    <div class="wrapper">
+        <div class="searchHeader">
+            <div class="searchBox"><label for="city">📍</label><input name="city" type="text" placeholder="Enter City Name" class="target"></div>
+            <div class="search">🔍</div>
+        </div>
+
+        <div style="width: 95%; margin-top: 2rem; background-color: rgb(92, 231, 92); height: 0.1rem; border-radius: 4rem;"></div>
+
+        <div class="tempBar">
+            <div class="tempimg"></div>
+            <div class="tempstats">
+                <div class="temp">30℃</div>
+                <div class="range">45℃/30℃</div>
+                <div class="display">Clear</div>
+            </div>
+        </div>
+
+        <h2 class="city">City</h2>
+
+        <div class="tempmore">
+            <div class="col">
+                <div><span>Humidity</span><span class="humidity">30%</span></div>
+                <div><span>Real Feel</span><span class="real">35℃</span></div>
+            </div>
+            <div style="height: 4rem; background-color: #449cf5; width: 1%; border-radius: 4rem;"></div>
+            <div class="col">
+                <div><span>Pressure</span><span class="pressure">1000mBar</span></div>
+                <div><span>Wind Speed</span><span class="speed">10km/h</span></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

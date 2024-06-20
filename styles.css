@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0ff;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem;
+    font-size: 40px;
+    text-shadow: 0 0 2px rgb(85, 70, 70);
+}
+
+.wrapper{
+    margin: 1rem;
+    min-width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2rem;
+    background: linear-gradient(50deg, #578bc6, #2b3d95);
+}
+
+.searchHeader{
+    height: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.searchBox{
+    border: 3px solid rgb(179, 199, 149);
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.searchHeader input{
+    padding: 0.6rem;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+
+.searchHeader .search, img{
+    cursor: pointer;
+    border: 3px solid rgb(179, 199, 149);    
+    border-radius: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.tempBar{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;    
+}
+
+.tempimg{
+    width: 6rem;
+    height: 6rem;
+    background-image: url(clear.png);
+    background-size: cover;
+}
+
+.tempstats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    color: rgb(70, 250, 250);
+}
+
+.temp{
+    font-size: 30px;
+    text-shadow: 1px 1px 1.5px rgb(234, 229, 229);
+    font-weight: 500;
+}
+
+.display{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 1px 1px 3px rgb(172, 210, 244);
+}
+
+.tempmore{
+    background-color: rgba(101, 167, 205, 0.516);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tempmore .col div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 17px;
+    gap: 1rem;
+}
+
+.thunderstorm{
+    background-image: url(thunderstorm.png);
+    background-size: cover;
+}
+.drizzle{
+    background-image: url(drizzle.png);
+    background-size: cover;
+}
+.rain{
+    background-image: url(rain.png);
+    background-size: cover;
+}
+.snow{
+    background-image: url(snow.png);
+    background-size: cover;
+}
+.mist{
+    background-image: url(mist.png);
+    background-size: cover;
+}
+.clear{
+    background-image: url(clear.png);
+    background-size: cover;
+}
+.cloudy{
+    background-image: url(cloudy.png);
+    background-size: cover;
+}
